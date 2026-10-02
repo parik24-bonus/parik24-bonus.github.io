@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Redirecting...</title></head>
+<body>
+<script>
+var path = window.location.pathname;
+var search = window.location.search;
+var lower = path.toLowerCase();
+if (lower !== path) {
+  window.location.replace('https://parik24-bonus.github.io' + lower + search);
+} else {
+  window.location.replace('https://parik24-bonus.github.io/parik24/' + search);
+}
+</script>
+</body>
+</html>
